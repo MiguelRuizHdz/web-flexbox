@@ -249,3 +249,14 @@ a {
         flex-direction: column;
     }
 }
+@media all and ( max-width: 384px ) {
+    h3 {
+        margin-top: -70px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .navegacion a {
+        padding: 0 7px;
+    }
+}
