@@ -14,7 +14,10 @@ body {
 }
 
     .header {
-        background-color: #000;
+        background: url(./assets/imgs/street-photography.jpg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
         display: flex;
         flex-flow: column nowrap;
 
