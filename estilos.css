@@ -50,6 +50,9 @@ a {
                 .logo a:hover {
                     color: #ffba60;
                 }
+                i {
+                    margin: 0 10px;
+                }
             
             .nav {
                 flex: 5 1 auto;
@@ -212,6 +215,9 @@ a {
     .aside {
         margin: 10px 0px 10px 0;
     }
+    i {
+        margin: 0 5px 12px 0;
+    }
 }
 
 @media all and ( max-width: 762px ) {
@@ -229,7 +235,7 @@ a {
         font-size: 20px;
     }
 }
-@media all and ( max-width: 640px ) {
+@media all and ( max-width: 651px ) {
     .off {
         display: none;
     }
@@ -258,5 +264,8 @@ a {
     }
     .navegacion a {
         padding: 0 7px;
+    }
+    .margen-interno {
+        padding: 0 41px;
     }
 }
