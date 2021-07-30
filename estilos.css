@@ -38,6 +38,10 @@ a {
             .logo {
                 flex: 1 1 auto;
             }
+                .logo img {
+                    width: 180px;
+                    height: auto;
+                }
                 .logo a {
                     color: #fff;
                     font-size: 30px;
@@ -184,7 +188,7 @@ a {
             letter-spacing: 2px;
         }
 
-@media all and ( max-width: 800px ) {
+@media all and ( max-width: 1392px ) {
     .section {
         flex-direction: column;
     }
@@ -196,14 +200,51 @@ a {
         display: flex;
         justify-content: center;
     }
+    h1 {
+        font-size: 25px;
+    }
+    .texto-principal {
+        height: 400px;
+    }
+    .navegacion {
+        margin: 10px 0px 0 0px;
+    }
+    .aside {
+        margin: 10px 0px 10px 0;
+    }
 }
 
-@media all and ( max-width: 600px ) {
+@media all and ( max-width: 762px ) {
+    .article,
+    .navegacion {
+        margin: 10px 0px 0 0px;
+    }
+    .aside {
+        margin: 10px 0px 10px 0;
+    }
     .articulos {
         flex-direction: column;
     }
+    h1 {
+        font-size: 20px;
+    }
 }
-@media all and ( max-width: 400px ) {
+@media all and ( max-width: 640px ) {
+    .off {
+        display: none;
+    }
+    .nav a {
+        font-size: 25px;
+    }
+    .social a {
+        font-size: 22px;
+        margin: 0 10px;
+    }
+    i {
+        margin: 12px 0;
+    }
+}
+@media all and ( max-width: 600px ) {
     .aside {
         flex-direction: column;
     }
