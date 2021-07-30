@@ -1,11 +1,13 @@
 *{
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Pontano Sans', sans-serif;
+}
+a {
+    text-decoration: none;
 }
 
 .padre {
@@ -23,30 +25,52 @@ body {
 
     }
         .menu {
-            background: #2d4059;
+            background: rgba(0, 0, 0, .5);
             display: flex;
             flex-flow: row nowrap;
             height: 100px;
             align-items: center;
+            border-bottom: 1px solid rgb(252, 172, .5);
         }
             .logo {
-                background: #ea5455;
                 flex: 1 1 auto;
-                height: 30px;
-                
             }
+                .logo a {
+                    color: #fff;
+                    font-size: 30px;
+                }
+
+                .logo a:hover {
+                    color: #ffba60;
+                }
+            
             .nav {
-                background: #ea5455;
                 flex: 5 1 auto;
-                height: 30px;
-                
             }
+                .nav a {
+                    color: #fff;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    padding: 0 10 px;
+                    letter-spacing: 2px;
+                }
+                .nav a:hover {
+                    color: #ffba60;
+                }
+
             .social {
-                background: #ea5455;
                 flex: 1 1 auto;
-                height: 30px;
-                
+                display: flex;
             }
+                .social a{
+                    color: #fff;
+                    font-size: 18px;
+                    padding: 0 5 px;
+
+                }
+                .social a:hover{
+                    color: #ffba60;
+                }
         .texto-principal {
             background: #f07b3f;
         }
